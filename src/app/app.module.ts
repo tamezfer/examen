@@ -9,6 +9,15 @@ import { HomePage } from '../pages/home/home';
 import { SidPage } from '../pages/sid/sid';
 import { NPage } from '../pages/n/n';
 import { WPage } from '../pages/w/w';
+import { BPage } from '../pages/b/b';
+import { ImagNPage } from '../pages/imag-n/imag-n';
+import { StarNPage } from '../pages/star-n/star-n';
+import { ImagSPage } from '../pages/imag-s/imag-s';
+import { UPage } from '../pages/u/u';
+import { StarSPage } from '../pages/star-s/star-s';
+import { ImagBPage } from '../pages/imag-b/imag-b';
+import { DPage } from '../pages/d/d';
+import { StarBPage } from '../pages/star-b/star-b';
 
 @NgModule({
   declarations: [
@@ -16,7 +25,16 @@ import { WPage } from '../pages/w/w';
     HomePage,
     SidPage,
     NPage,
-    WPage
+    WPage,
+    BPage,
+    ImagNPage,
+    StarNPage,
+    ImagSPage,
+    UPage,
+    StarSPage,
+    ImagBPage,
+    DPage,
+    StarBPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +46,16 @@ import { WPage } from '../pages/w/w';
     HomePage,
     SidPage,
     NPage,
-    WPage
+    WPage,
+    BPage,
+    ImagNPage,
+    StarNPage,
+    ImagSPage,
+    UPage,
+    StarSPage,
+    ImagBPage,
+    DPage,
+    StarBPage
   ],
   providers: [
     StatusBar,
