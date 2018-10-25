@@ -12,6 +12,10 @@ import { StarSPage } from '../star-s/star-s';
 import { ImagBPage } from '../imag-b/imag-b';
 import { DPage } from '../d/d';
 import { StarBPage } from '../star-b/star-b';
+import { MPage } from '../m/m';
+import { ImagMPage } from '../imag-m/imag-m';
+import { EPage } from '../e/e';
+import { StarMPage } from '../star-m/star-m';
 
 @Component({
   selector: 'page-home',
@@ -33,6 +37,13 @@ export class HomePage {
   ImagenB = ImagBPage;
   Dont = DPage;
   StarB = StarBPage;
+//Marina and the Diamonds
+  Marina = MPage;
+  ImagenM= ImagMPage;
+  Electra= EPage;
+  StarM= StarMPage;
+
+
 
   constructor(public navCtrl: NavController) {
 
@@ -99,6 +110,27 @@ export class HomePage {
    this.navCtrl.push(this.StarB)
   }
 
+  //Marina and The Diamonds
+
+  clickM()
+  {
+    this.navCtrl.push(this.Marina)
+  }
+  
+  clickImagM()
+  {
+    this.navCtrl.push(this.ImagenM)
+  }
+
+  clickE()
+  {
+    this.navCtrl.push(this.Electra)
+  }
+
+  clickStarM()
+  {
+    this.navCtrl.push(this.StarM)
+  }
   
 
 }

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the DPage page.
+ * Generated class for the StarMPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,26 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-d',
-  templateUrl: 'd.html',
+  selector: 'page-star-m',
+  templateUrl: 'star-m.html',
 })
-export class DPage {
-
-  Canciones = ["1. COPYCAT",
-  "2. idontwannabeyouanymore",
-  "3. my boy",
-  "4. watch",
-  "5. party favor)",
-  "6. bellyache",
-  "7. ocean eyes",
-  "8. hostage",
-  "9. &burn"];
+export class StarMPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DPage');
+    console.log('ionViewDidLoad StarMPage');
   }
 
 }

@@ -18,6 +18,10 @@ import { StarSPage } from '../pages/star-s/star-s';
 import { ImagBPage } from '../pages/imag-b/imag-b';
 import { DPage } from '../pages/d/d';
 import { StarBPage } from '../pages/star-b/star-b';
+import { MPage } from '../pages/m/m';
+import { ImagMPage } from '../pages/imag-m/imag-m';
+import { EPage } from '../pages/e/e';
+import { StarMPage } from '../pages/star-m/star-m';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { StarBPage } from '../pages/star-b/star-b';
     StarSPage,
     ImagBPage,
     DPage,
-    StarBPage
+    StarBPage,
+    MPage,
+    ImagMPage,
+    EPage,
+    StarMPage
   ],
   imports: [
     BrowserModule,
@@ -55,7 +63,11 @@ import { StarBPage } from '../pages/star-b/star-b';
     StarSPage,
     ImagBPage,
     DPage,
-    StarBPage
+    StarBPage,
+    MPage,
+    ImagMPage,
+    EPage,
+    StarMPage
   ],
   providers: [
     StatusBar,
